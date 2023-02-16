@@ -1,0 +1,2 @@
+#!/vin/bash
+gcc -E $CFILE > c
