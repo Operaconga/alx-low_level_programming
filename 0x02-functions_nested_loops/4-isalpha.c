@@ -1,9 +1,12 @@
 #include "main.h"
+
 /**
- * _isalpha - checks for alphabet character
+ * _isalpha - checks for alphabetic character
+ * @c: the parameter of the function
  *
- * Return: Always 1 (success)
+ * Return: 1 (Success)
  */
+
 int _isalpha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
