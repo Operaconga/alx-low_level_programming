@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * print_alphabet - prints alphabet in lowwer case followed by a new line
+ *print_alphabet - prints all the letters of the alphabet
  *
- * Return: Always 0 (success)
+ *Return: void
  */
-int print_alphabet(void)
+
+void print_alphabet(void)
 {
 	char alpha;
 
@@ -12,6 +14,5 @@ int print_alphabet(void)
 	{
 		_putchar(alpha);
 	}
-
 	_putchar('\n');
 }
