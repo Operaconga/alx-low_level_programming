@@ -3,8 +3,6 @@
 /**
  *_puts - prints a string and followed by a new line to stdout
  *@str is the parameter
- *
- * Returns: Always 0 (success)
  */
 void _puts(char *str)
 {
